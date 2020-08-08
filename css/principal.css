@@ -1,0 +1,34 @@
+.navbar{
+    box-shadow: 2 2 5 black;
+}
+/*el bagraound me permite poner la imagen la url busca se pone dos puntps para ir atras despues enton en la caperta imagenes y lo ultimo busco mi imagen*/
+/*con el size hago que ocupe toda la pantalla y con el min-height le doy el taño de la altura minimu */
+.main-header{
+    background: url(../img/fond.jpg);
+    background-size: cover;
+    min-height: 550px;
+    
+}
+/*background overlay le da un color encima a la imagen*/
+.backgroung-overlay{
+    background: rgba(83, 92, 104,0.7);
+}
+.product, footer{
+    background:#273c75 ;
+}
+.sociales li{
+    display: inline-block;
+    padding: 0 50px;
+   
+}
+.redes{
+    text-align: center;
+    padding-bottom:0;
+    padding-top: 0;
+    background:#273c75 ;
+    width: 100%;
+}
+.footer{
+    padding: 5px;
+    margin: 0px;
+}
